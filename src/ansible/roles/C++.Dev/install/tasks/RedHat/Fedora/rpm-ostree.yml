@@ -1,0 +1,8 @@
+- name: Install C++ Compiler
+  community.general.rpm_ostree_pkg:
+    name: "{{ item }}"
+    state: present
+  loop:
+  - gcc
+  - gpp
+  become: true
