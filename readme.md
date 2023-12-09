@@ -7,9 +7,3 @@ sch: https://www.youtube.com/results?search_query=C%2B%2B
 
 10 hours:
 - https://youtu.be/_bYFu9mBnr4
-
-# IDE:
-## Visual Studio Code
-- https://code.visualstudio.com/docs/cpp/config-linux
-- https://code.visualstudio.com/docs/cpp/config-mingw
-- https://code.visualstudio.com/docs/cpp/config-wsl
