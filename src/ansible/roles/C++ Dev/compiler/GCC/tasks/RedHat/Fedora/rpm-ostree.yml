@@ -5,6 +5,7 @@
   loop:
     - gcc
     - g++
+    - gpp
   become: true
   notify:
   - Reboot

@@ -4,5 +4,6 @@
     name:
       - gcc
       - g++
+      - gpp
     state: latest
   become: true
