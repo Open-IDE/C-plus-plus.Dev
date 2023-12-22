@@ -1,1 +1,3 @@
-compiler: GCC # clang
+clang: True
+gpp: True
+#compiler: GCC # clang

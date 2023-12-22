@@ -1,7 +1,0 @@
----
-- name: Install C++ Compiler 
-  ansible.builtin.apt:
-    pkg:
-    - gcc
-    - gpp
-  become: true

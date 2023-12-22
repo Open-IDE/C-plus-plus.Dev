@@ -3,9 +3,9 @@
     name: "{{ item }}"
     state: present
   loop:
-    - gcc
-    - g++
-    - gpp
+    - gcc # C compiler
+    - gpp # C++ compiler
+    - g++ # linker
   become: true
   notify:
   - Reboot

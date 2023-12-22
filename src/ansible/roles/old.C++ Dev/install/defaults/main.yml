@@ -1,6 +1,0 @@
-clang: True
-gpp: True
-
-install_source: "default"
-
-in_Toolbox: False

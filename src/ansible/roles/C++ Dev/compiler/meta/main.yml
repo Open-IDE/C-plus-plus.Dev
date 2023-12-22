@@ -1,3 +1,5 @@
 dependencies:
-  - C++/compiler/{{ compiler }}
-
+  - { role: 'C++/compiler/GCC', when: gpp }
+  - { role: 'C++/compiler/Clang', when: clang }
+#  - C++/compiler/GCC
+#  - C++/compiler/Clang
