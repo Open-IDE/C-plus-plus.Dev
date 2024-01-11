@@ -1,3 +1,6 @@
 - hosts: localhost #, node
+  # vars:
+  #   gpp: true
+  #   clang: true
   roles:
   - C++ Dev
