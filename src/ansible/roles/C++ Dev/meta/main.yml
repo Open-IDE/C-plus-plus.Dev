@@ -1,7 +1,7 @@
 ---
 dependencies:
-  - C++/build tool/CMake
-  - C++/debugger/GDB
-  - C++/debugger/Valgrind
-  - C++/compiler
+  - C++ Dev/build tool/CMake
+  - C++ Dev/debugger/GDB
+  - C++ Dev/debugger/Valgrind
+  - C++ Dev/compiler
   
