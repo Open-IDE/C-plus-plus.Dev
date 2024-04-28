@@ -1,0 +1,7 @@
+# from galaxy.ansible.com
+- name: UniInc.Clang
+- name: UniInc.GCC
+- name: UniInc.GDB
+- name: UniInc.CMake
+- name: UniInc.Visual-Studio-Code
+- name: UniInc.VSCode-Cplusplus-Extension

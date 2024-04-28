@@ -1,5 +1,0 @@
-dependencies:
-  - { role: 'C++ Dev/compiler/GCC', when: gpp }
-  - { role: 'C++ Dev/compiler/Clang', when: clang }
-#  - C++ Dev/compiler/GCC
-#  - C++ Dev/compiler/Clang

@@ -1,0 +1,5 @@
+dependencies:
+  - { role: 'UniInc.GCC', when: gpp }
+  - { role: 'UniInc.Clang', when: clang }
+#  - C++ Dev/compiler/GCC
+#  - C++ Dev/compiler/Clang

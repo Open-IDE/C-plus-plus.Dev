@@ -1,6 +1,14 @@
-- hosts: localhost #, node
-  # vars:
-  #   gpp: true
-  #   clang: true
+- name: Flutter Dev on Ubuntu
+  hosts: localhost
+  vars:
+    debug: false
+    vagrant: false
+
   roles:
-  - C++ Dev
+    - UniInc.Clang
+    - UniInc.GCC
+    - UniInc.GDB
+    - UniInc.CMake
+    - UniInc.Visual-Studio-Code
+    - UniInc.VSCode-Cplusplus-Extension
+
