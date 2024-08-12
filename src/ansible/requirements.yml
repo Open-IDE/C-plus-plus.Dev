@@ -1,7 +1,12 @@
-# from galaxy.ansible.com
+# all
 - name: UniInc.Clang
 - name: UniInc.GCC
 - name: UniInc.GDB
 - name: UniInc.CMake
+
+# ide: VSCode
 - name: UniInc.Visual-Studio-Code
 - name: UniInc.VSCode-Cplusplus-Extension
+
+# ide: CodeBlocks
+- name: UniInc.Language-server_Clangd
